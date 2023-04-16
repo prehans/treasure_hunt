@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div id="rd" onclick="clue()"><button class="btn third">HINT</button></div>
+    
+    <div id="rd" onclick = "window.location.href='index.php';"><button class="btn third">Logout</button></div>
+    
+    <div class="wrapper">
+        <h1>LEVEL 2 :Where you freshen up and take a bath,<br>
+          The next clue lies within its path."</h1>  
+
+        <div class="img-area">
+          <div class="single-img" onclick="myFunction()"><img src="level 2/kitchen.jpg"height="300px"width="400px"></div>
+            <div class="single-img" onclick="myFunction()"><img src="level 2/garag.jpg"height="300px"width="400px"></div>
+            <a  href="level3.html" onclick="my()"><div class="single-img" ><img src="level 2/bathroom.jpg"height="300px"width="400px"></div></a>
+            <div class="single-img" onclick="myFunction()"><img src="level 2/livingroom.jpg"height="300px"width="400px"></div>
+             <div class="single-img" onclick="myFunction()"><img src="level 2/pujaroom.jpeg"height="300px"width="400px"></div>
+            <div class="single-img" onclick="myFunction()"><img src="level 2/storeroom.jpeg"height="300px"width="400px"></div>
+            
+        </div>
+    </div>
+    <embed src="level1music.mp3" loop="true" autostart="true" width="10"
+    height="0">
+	<script src="index.js"></script>
+  <script>
+    function myFunction() {
+      alert("Wrong Answer!");
+    }
+    function my() {
+      alert("Right Answer! Level 2 completed");
+    }
+    function clue() {
+      alert("HINT is Bathroom");
+    }
+    </script>
+  </body>
+</html>
